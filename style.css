@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+/******************** first section start *****************/
+.first-section {
+    height: 100vh;
+    width: 100%;
+    padding-top: 1rem;
+    background-image: linear-gradient(rgba(0, 168, 255, 0.3), rgba(0, 168, 255, 0.3)), url("https://images.unsplash.com/photo-1492138786289-d35ea832da43?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d29yayUyMHRhYmxlfGVufDB8fDB8fHww");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(100% 0%, 100% 79%, 50% 95%, 0% 79%, 0% 0%);
+    position: relative;
+}
+
+.first-section .navbar a {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-image: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+    opacity: 0.3;
+}
+
+.header-content {
+    height: 93.5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1rem;
+    color: white;
+}
+
+.header-content h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.header-content p {
+    font-size: 2rem;
+}
+
+.header-btns a {
+    color: white;
+    font-weight: 500;
+    border: 1px solid white;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
+}
+
+.header-btns a:hover {
+    background-color: white;
+    color: rgb(12, 227, 255);
+    box-shadow: 0px 0px 0.3rem rgba(0, 0, 0, 0.418);
+}
+/******************** first section end *****************/
+
+/******************** second section start *****************/
+.second-section {
+    width: 100%;
+    height: auto;
+    padding: 5rem 0;
+}
+
+.section-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    transition: all 0.2s linear;
+    padding-top: 1rem;
+}
+
+.section-card i {
+    font-size: 3rem;
+    color: rgb(12, 227, 255);
+}
+
+.second-section h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.section-card:hover {
+    transform: translateY(-1rem);
+    box-shadow: 2px 2px 0.3rem black;
+}
+/******************** second section end *****************/
+
+/******************** third section start *****************/
+.third-section {
+    width: 100%;
+    height: 100%;
+}
+
+.third-section h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.third-section .left-box p {
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+.third-section .bg-color > p {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.left-box {
+    width: 40%;
+}
+
+.left-box .progress {
+    margin-bottom: 1rem;
+}
+
+.right-box {
+    width: 40%;
+}
+
+ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-box i {
+    font-size: 2rem;
+    color: rgb(12, 227, 255);
+}
+
+.right-box h3 {
+    font-size: 1rem;
+}
+
+.right-box p {
+    font-size: 0.8rem;
+}
+
+.third-section .bg-color {
+    background-color: rgb(243, 243, 243);
+    padding: 5rem 0px;
+}
+/******************** third section end *****************/
+
+/******************** fourth section start *****************/
+.fourth-section {
+    height: auto;
+    width: 100%;
+    padding: 5rem 0px;
+}
+
+.fourth-section h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.row-projects div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-projects div p:first-child {
+    font-size: 2rem;
+    margin-bottom: 0px;
+}
+/******************** fourth section end *****************/
+
+/******************** fifth section start *****************/
+.fifth-section {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    place-content: center;
+}
+
+.fifth-section::before {
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-image: linear-gradient(155deg, rgb(12, 227, 255) 55%, white 45%);
+}
+
+.best-price h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: white;
+}
+
+.card {
+    transition: all 0.3s linear;
+}
+
+.card-header {
+    font-size: 2rem;
+    background-color: transparent;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.card-body {
+    line-height: 2rem;
+}
+
+.card-body ul li:first-child {
+    align-items: baseline;
+}
+.card-body ul li:first-child span {
+    font-size: 2rem;
+}
+
+.btn-purchase {
+    border: 2px solid #50d1c0;
+    font-weight: 400;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    color: #50d1c0;
+}
+
+.card-footer {
+    background-color: transparent;
+    padding: 1rem 0;
+}
+
+.card:hover {
+
+    .card-header {
+        color: #50d1c0;
+    }
+
+    .card-body ul li:first-child span {
+        color: #50d1c0;
+    }
+    
+    .btn-purchase {
+        background-color: #50d1c0;
+        color: white;
+        box-shadow: 1px 1px 3px black;
+    }
+
+    transform: translateY(-10px);
+
+}
+/******************** fifth section end *****************/
+
+/******************** sixth section start *****************/
+
+
+
+
+
+
+/******************** sixth section end *****************/
+
+/******************** Media query start *****************/
+
+
+/******************** Media query end *****************/
