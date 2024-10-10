@@ -327,7 +327,6 @@ ul li {
     margin: 2rem 0;
 }
 
-
 .carousel-control-prev {
     filter: invert(1);
 }
@@ -339,9 +338,98 @@ ul li {
     bottom: -80px;
     filter: invert(1);
 }
-
-
 /******************** sixth section end *****************/
+
+/******************** seventh section start *****************/
+.seventh-section {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(155deg, rgb(12, 227, 255) 55%, white 45%);
+    align-content: center;
+}
+
+.seventh-section .container h4 {
+    text-transform: uppercase;
+}
+
+.seventh-section .container p {
+    margin-bottom: 2rem;
+}
+
+.form-btn {
+    color: white;
+    font-weight: 500;
+    border: 1px solid white;
+    border-radius: 2rem;
+    padding: 0.7rem 2rem;
+    font-size: 1.2rem;
+    margin: 1rem 0.5rem;
+}
+
+.seventh-section .container:hover .form-btn {
+    background-color: white;
+    color: rgb(12, 227, 255);
+    box-shadow: 0px 0px 0.3rem rgba(0, 0, 0, 0.418);
+}
+/******************** seventh section end *****************/
+
+/******************** footer section start *****************/
+footer {
+    height: 100vh;
+    width: 100%;
+}
+
+.newsletter-section {
+    height: 40%;
+    align-content: center;
+}
+
+.newsletter-section h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+.newsletter-section .form-control {
+    border-radius: 2rem 0 0 2rem !important;
+}
+
+.newsletter-section .input-group-text {
+    border-radius: 0 2rem 2rem 0 !important;
+    background-color: #50d1c0;
+    color: white;
+}
+
+.footer-content {
+    height: 60%;
+    align-content: center;
+    background-color: rgb(122, 122, 255);
+    color: white;
+}
+
+.footer-content h5 {
+    text-transform: uppercase;
+}
+
+.footer-content .form-control {
+    border-radius: 2rem 0 0 2rem !important;
+}
+
+.footer-content .input-group-text {
+    border-radius: 0 2rem 2rem 0 !important;
+    background-color: #50d1c0;
+    color: white;
+}
+
+.footer-content .copyright {
+    margin-top: 1rem;
+}
+
+
+/******************** footer section end *****************/
+
+
+
 
 /******************** Media query start *****************/
 
