@@ -464,6 +464,9 @@ footer {
         font-size: 1.2rem;
     }
     /******************** second section end *****************/
+    .offer-section {
+        display: flex;
+    }
 
     .third-section {
         width: 100%;
