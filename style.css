@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-a, a:hover {
+a,
+a:hover {
     text-decoration: none;
 }
 
@@ -79,6 +80,7 @@ li {
     color: rgb(12, 227, 255);
     box-shadow: 0px 0px 0.3rem rgba(0, 0, 0, 0.418);
 }
+
 /******************** first section end *****************/
 
 /******************** second section start *****************/
@@ -103,13 +105,14 @@ li {
 
 .second-section h2 {
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .section-card:hover {
     transform: translateY(-1rem);
     box-shadow: 2px 2px 0.3rem black;
 }
+
 /******************** second section end *****************/
 
 /******************** third section start *****************/
@@ -128,7 +131,7 @@ li {
     text-transform: uppercase;
 }
 
-.third-section .bg-color > p {
+.third-section .bg-color>p {
     text-align: center;
     margin-bottom: 3rem;
 }
@@ -168,6 +171,7 @@ ul li {
     background-color: rgb(243, 243, 243);
     padding: 5rem 0px;
 }
+
 /******************** third section end *****************/
 
 /******************** fourth section start *****************/
@@ -194,6 +198,7 @@ ul li {
     font-size: 2rem;
     margin-bottom: 0px;
 }
+
 /******************** fourth section end *****************/
 
 /******************** fifth section start *****************/
@@ -241,6 +246,7 @@ ul li {
 .best-price .card-body ul li:first-child {
     align-items: baseline;
 }
+
 .best-price .card-body ul li:first-child span {
     font-size: 2rem;
 }
@@ -267,7 +273,7 @@ ul li {
     .card-body ul li:first-child span {
         color: #50d1c0;
     }
-    
+
     .btn-purchase {
         background-color: #50d1c0;
         color: white;
@@ -277,6 +283,7 @@ ul li {
     transform: translateY(-10px);
 
 }
+
 /******************** fifth section end *****************/
 
 /******************** sixth section start *****************/
@@ -294,7 +301,7 @@ ul li {
     text-transform: uppercase;
 }
 
-.sixth-section .container > p {
+.sixth-section .container>p {
     text-transform: capitalize;
 }
 
@@ -323,21 +330,24 @@ ul li {
     background-image: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
 }
 
-.sixth-section .card-body > p:first-child {
+.sixth-section .card-body>p:first-child {
     margin: 2rem 0;
 }
 
 .carousel-control-prev {
     filter: invert(1);
 }
+
 .carousel-control-next {
     filter: invert(1);
 }
+
 .carousel-indicators {
     position: absolute !important;
     bottom: -80px;
     filter: invert(1);
 }
+
 /******************** sixth section end *****************/
 
 /******************** seventh section start *****************/
@@ -371,6 +381,7 @@ ul li {
     color: rgb(12, 227, 255);
     box-shadow: 0px 0px 0.3rem rgba(0, 0, 0, 0.418);
 }
+
 /******************** seventh section end *****************/
 
 /******************** footer section start *****************/
@@ -428,10 +439,185 @@ footer {
 
 /******************** footer section end *****************/
 
-
-
-
 /******************** Media query start *****************/
+@media screen and (max-width: 576px) {
 
+    .header-content h1 {
+        font-size: 2rem;
+    }
+
+    .header-content p {
+        font-size: 1.3rem;
+    }
+
+    .header-btns a {
+        padding: 1rem 2rem;
+        font-size: 1rem;
+        margin: 0 0.3rem;
+    }
+    /******************** first section end *****************/
+    .section-card i {
+        font-size: 1.7rem;
+    }
+
+    .second-section h2 {
+        font-size: 1.2rem;
+    }
+    /******************** second section end *****************/
+
+    .third-section {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .third-section h2 {
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .third-section .left-box p {
+        margin-bottom: 0px;
+        text-transform: uppercase;
+    }
+    
+    .third-section .bg-color>p {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    
+    .left-box {
+        width: 40%;
+    }
+    
+    .left-box .progress {
+        margin-bottom: 1rem;
+    }
+    
+    .right-box {
+        width: 40%;
+    }
+    
+    ul li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .right-box i {
+        font-size: 2rem;
+        color: rgb(12, 227, 255);
+    }
+    
+    .right-box h3 {
+        font-size: 1rem;
+    }
+    
+    .right-box p {
+        font-size: 0.8rem;
+    }
+    
+    .third-section .bg-color {
+        background-color: rgb(243, 243, 243);
+        padding: 5rem 0px;
+    }
+
+
+    /******************** third section end *****************/
+
+
+
+
+
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+
+    .header-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .header-content p {
+        font-size: 1.5rem;
+    }
+
+    .header-btns a {
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+        margin: 0 0.3rem;
+    }
+    /******************** first section end *****************/
+
+    .section-card i {
+        font-size: 2.5rem;
+    }
+
+    .second-section h2 {
+        font-size: 1.5rem;
+    }
+    /******************** second section end *****************/
+
+    .third-section {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .third-section h2 {
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .third-section .left-box p {
+        margin-bottom: 0px;
+        text-transform: uppercase;
+    }
+    
+    .third-section .bg-color>p {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    
+    .left-box {
+        width: 40%;
+    }
+    
+    .left-box .progress {
+        margin-bottom: 1rem;
+    }
+    
+    .right-box {
+        width: 40%;
+    }
+    
+    ul li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .right-box i {
+        font-size: 2rem;
+        color: rgb(12, 227, 255);
+    }
+    
+    .right-box h3 {
+        font-size: 1rem;
+    }
+    
+    .right-box p {
+        font-size: 0.8rem;
+    }
+    
+    .third-section .bg-color {
+        background-color: rgb(243, 243, 243);
+        padding: 5rem 0px;
+    }
+
+    /******************** third section end *****************/
+
+
+
+}
+
+@media screen and (min-width:992px) {}
 
 /******************** Media query end *****************/
